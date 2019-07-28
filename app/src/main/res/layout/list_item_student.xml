@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageview_student_photo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerInside"
+        tools:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@+id/imageview_student_photo"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="4dp"
+        android:textSize="24sp"
+        tools:text="Rahul S Deshpande" />
+
+    <TextView
+        android:id="@+id/tv_student_roll_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_student_name"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@+id/imageview_student_photo"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="4dp"
+        android:textSize="20sp"
+        tools:text="121212" />
+
+</RelativeLayout>
