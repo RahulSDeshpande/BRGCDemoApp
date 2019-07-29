@@ -6,7 +6,7 @@
     android:padding="8dp">
 
     <ImageView
-        android:id="@+id/imageview_student_photo"
+        android:id="@+id/iv_student_photo"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:scaleType="centerInside"
@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_toEndOf="@+id/imageview_student_photo"
+        android:layout_toEndOf="@+id/iv_student_photo"
         android:ellipsize="end"
         android:maxLines="1"
         android:padding="4dp"
@@ -32,7 +32,7 @@
         android:layout_below="@+id/tv_student_name"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_toEndOf="@+id/imageview_student_photo"
+        android:layout_toEndOf="@+id/iv_student_photo"
         android:ellipsize="end"
         android:maxLines="1"
         android:padding="4dp"

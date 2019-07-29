@@ -50,10 +50,21 @@
         android:id="@+id/button_reset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/button_show_student_list"
         android:layout_margin="8dp"
         android:padding="16dp"
         android:text="Reset"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_show_student_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:text="Show Student List >"
+        android:textAllCaps="true"
         android:textSize="24sp" />
 
 </RelativeLayout>
